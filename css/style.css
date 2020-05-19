@@ -45,8 +45,24 @@ button {
   background: #8bb400;
   border-radius: 20px;
 }
+.left i{
+  position: absolute;
+  left: 500px;
+  top: 100px;
+  z-index: 1000;
+ 
+  
+}
+.icon { 
+  padding: 10px; 
+  min-width: 40px; 
+} 
+
 .search p {
   color: #726d6d;
+}
+.search input{
+  width: fit-content;
 }
 .search {
   position: absolute;
