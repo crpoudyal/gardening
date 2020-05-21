@@ -22,11 +22,9 @@ header {
 .left {
   width: 50%;
   height: 100vh;
-<<<<<<< HEAD
   background-image: url("/Asset/images/seedling-5009286_1920.jpg");
-=======
-  background-image: url('./Asset/images/seedling-5009286_1920.jpg');
->>>>>>> 0720f05dfa2b4aba7980db0fc8426cfa09e68465
+
+  
   background-repeat: no-repeat;
   background-size: cover;
 }
