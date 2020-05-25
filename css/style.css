@@ -199,7 +199,8 @@ footer {
     width: 100%;
   }
   .card {
-    width: 80%;
+    width: 60%;
+    height: auto;
     align-self: center;
     margin-bottom: 2%;
   }
