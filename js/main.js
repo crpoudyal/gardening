@@ -22,6 +22,8 @@ const tip = document.getElementById('tip');
 search.addEventListener('keydown',() => {
     tip.style.visibility= "visible";
     tip.style.opacity="1";
+  
+    
 })
 
 
