@@ -55,7 +55,7 @@ nav ul a {
 nav ul {
   display: flex;
   margin-left: 12%;
-  padding-top: 5%;
+  padding-top: 2%;
   justify-content: space-between;
   margin-right: 4%;
 }
@@ -77,8 +77,10 @@ nav ul {
 }
 .show-para button {
   margin-top: 20%;
-  padding: 1%;
-  width: 15%;
+  margin-bottom: 20%;
+  padding: 2%;
+  width: 25%;
+  height: auto;
   font-size: 16px;
   color: #ffffff;
   background-color: #8bb400;
@@ -184,19 +186,82 @@ nav ul {
 .update button {
   margin: 1%;
   padding: 0.5% 2% 0.5% 2%;
-  border-radius: 10%;
-  font-size: 16px;
+  border-radius: 20px;
+  font-size: 12px;
   margin-bottom: 5%;
+  border: none;
+  width: 15%;
   color: #ffffff;
   background-color: #8bb400;
 }
 
-footer {
+
+/* Indoor Page CSS */
+
+.indoor {
+  position: relative;
   width: 100%;
-  height: 50vh;
-  background-color: #000000;
-  color: #ffffff;
+  height: 25vh;
+  background-color: #8bb400;
+ 
+  
+  img{
+    
+    object-fit: cover;
+    position: absolute;
+    width: 50%;
+    height: 20vh;
+    top: 40%;
+    left: 25%;
+    z-index: 1000;
+    border-radius: 20px;
+
+  }
+  
 }
+
+.discription {
+  text-align: left;
+  width: 50%;
+  height: auto;
+  position: relative;
+ 
+  left: 25%;
+  p{
+    margin-top: 15%;
+  }
+  
+  
+}
+.product-gallary{
+
+ width: 100%;
+ display: flex;
+ justify-content: space-evenly;
+
+ img{
+   width: 20%;
+   height: auto;
+   border-radius: 20px;
+   margin-bottom: 20px;
+ }
+ img:hover{
+   opacity: 0.3;
+   
+   
+ }
+}
+.indoor-nav ul li a{
+
+  color: #000;
+  
+}
+ 
+.indoor-nav{
+  width: 100%;
+}
+
+
 
 
 
