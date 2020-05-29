@@ -17,6 +17,9 @@ input :focus{
   text-align: center;
   font-size: 25px;
 }
+span{
+  color: #8bb400;
+}
 
 header {
   display: flex;
@@ -194,6 +197,34 @@ nav ul {
   color: #ffffff;
   background-color: #8bb400;
 }
+footer{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: auto;
+  background-color: #000;
+  padding-bottom: 5%;
+  color: #ffff;
+  div{
+    width: 20%;
+    h1{
+      white-space: nowrap;
+      padding: 6% 0 6% 0;
+    }
+   
+  }
+}
+
+.social a{
+  color: #ffffff;
+}
+.link ul li a{
+  color: #ffffff
+}
+.link ul li{
+
+list-style: disc;
+}
 
 
 /* Indoor Page CSS */
@@ -264,7 +295,6 @@ nav ul {
 
 
 
-
 //Responsive elements
 
 @media screen and (max-width: 1024px) {
@@ -304,5 +334,14 @@ nav ul {
     width: 90%;
     margin-left: 4%;
     margin-right: 4%;
+  }
+  footer{
+    flex-direction: column;
+    
+    align-items: center;
+    div{
+      width: 100%;
+      align-items: center;
+    }
   }
 }

@@ -19,6 +19,10 @@ input :focus {
   font-size: 25px;
 }
 
+span {
+  color: #8bb400;
+}
+
 header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -221,6 +225,40 @@ nav ul {
   background-color: #8bb400;
 }
 
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+  height: auto;
+  background-color: #000;
+  padding-bottom: 5%;
+  color: #ffff;
+}
+
+footer div {
+  width: 20%;
+}
+
+footer div h1 {
+  white-space: nowrap;
+  padding: 6% 0 6% 0;
+}
+
+.social a {
+  color: #ffffff;
+}
+
+.link ul li a {
+  color: #ffffff;
+}
+
+.link ul li {
+  list-style: disc;
+}
+
 /* Indoor Page CSS */
 .indoor {
   position: relative;
@@ -333,6 +371,21 @@ nav ul {
     width: 90%;
     margin-left: 4%;
     margin-right: 4%;
+  }
+  footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  footer div {
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 /*# sourceMappingURL=style.css.map */
