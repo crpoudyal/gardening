@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   list-style: none;
   text-decoration: none;
   font-family: "Poppins", sans-serif;
@@ -33,7 +33,7 @@ header {
 .left {
   width: 50%;
   height: 100vh;
-  background: url(/Asset/images/seedling-5009286_1920.jpg);
+  background: url(../Asset/images/seedling-5009286_1920.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -71,8 +71,8 @@ nav ul {
   margin-left: 12%;
   padding-top: 2%;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   margin-right: 4%;
 }
 
@@ -123,7 +123,7 @@ nav ul {
   padding-top: 0.5%;
   border: 1px solid #000000;
   -webkit-box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
-          box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
 }
 
 .card h1 {
@@ -153,7 +153,7 @@ nav ul {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
 }
 
 .card {
@@ -178,7 +178,7 @@ nav ul {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   padding-bottom: 5%;
   width: 100%;
   height: 100%;
@@ -230,7 +230,7 @@ footer {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   width: 100%;
   height: auto;
   background-color: #000;
@@ -269,7 +269,7 @@ footer div h1 {
 
 .indoor img {
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   position: absolute;
   width: 50%;
   height: 20vh;
@@ -292,24 +292,24 @@ footer div h1 {
 }
 
 .product-gallary {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-bottom: 4%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(300px, 1fr)) [auto-fit];
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-row-gap: 20px;
+  grid-column-gap: 20px;
 }
 
 .product-gallary img {
-  width: 20%;
-  height: auto;
+  width: 100%;
   border-radius: 20px;
-  margin-bottom: 20px;
 }
 
 .product-gallary img:hover {
-  opacity: 0.3;
+  opacity: 0.6;
 }
 
 .indoor-nav ul li a {
@@ -318,6 +318,25 @@ footer div h1 {
 
 .indoor-nav {
   width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  .indoor img {
+    position: relative;
+    left: 0;
+    right: 0;
+    width: 100%;
+  }
+  .discription {
+    width: 100%;
+    position: relative;
+    left: 2%;
+    right: 2%;
+  }
+  .discription p {
+    font-size: 12px;
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -331,18 +350,18 @@ footer div h1 {
   header {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -ms-flex-preferred-size: 100%;
-        flex-basis: 100%;
+    flex-basis: 100%;
   }
   .category {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -ms-flex-preferred-size: 100%;
-        flex-basis: 100%;
+    flex-basis: 100%;
   }
   .category img {
     width: 100%;
@@ -350,21 +369,21 @@ footer div h1 {
   .card {
     width: 80%;
     -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
+    -ms-grid-row-align: center;
+    align-self: center;
     margin-bottom: 2%;
   }
   .blog {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
   }
   .content {
     width: 80%;
     -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
+    -ms-grid-row-align: center;
+    align-self: center;
     margin-bottom: 2%;
   }
   .blog img {
@@ -375,17 +394,17 @@ footer div h1 {
   footer {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
   footer div {
     width: 100%;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 }
 /*# sourceMappingURL=style.css.map */

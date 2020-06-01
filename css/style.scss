@@ -8,8 +8,8 @@
   text-decoration: none;
   font-family: "Poppins", sans-serif;
 }
-input :focus{
- outline:none;
+input :focus {
+  outline: none;
 }
 
 .title {
@@ -17,7 +17,7 @@ input :focus{
   text-align: center;
   font-size: 25px;
 }
-span{
+span {
   color: #8bb400;
 }
 
@@ -28,28 +28,27 @@ header {
 .left {
   width: 50%;
   height: 100vh;
-  background: url(/Asset/images/seedling-5009286_1920.jpg);
+  background: url(../Asset/images/seedling-5009286_1920.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
-.left p{
+.left p {
   text-transform: uppercase;
-  color:rgb(248, 232, 7);
+  color: rgb(248, 232, 7);
   font-family: monospace;
   font-weight: bold;
   font-size: 0.8em;
-  text-align:left;  
-  padding-left:150px;
+  text-align: left;
+  padding-left: 150px;
   visibility: hidden;
   opacity: 0;
-  transition:  opacity 2s;
+  transition: opacity 2s;
 }
 .right {
   width: 50%;
   height: 100vh;
   background-color: #000000;
   color: #ffffff;
-
 }
 nav ul a {
   color: #ffffff;
@@ -62,21 +61,18 @@ nav ul {
   justify-content: space-between;
   margin-right: 4%;
 }
-.show-para h1{
+.show-para h1 {
   margin-left: 12px;
   margin-top: 20%;
 }
 .show-para p {
   margin-top: 10%;
   font-size: 15px;
-  
-  
 }
 .show-para {
   text-align: left;
   margin-left: 12%;
   margin-right: 4%;
-  
 }
 .show-para button {
   margin-top: 20%;
@@ -88,8 +84,8 @@ nav ul {
   color: #ffffff;
   background-color: #8bb400;
   border-radius: 20px;
- 
 }
+
 .left i {
   position: relative;
   left: 80%;
@@ -98,7 +94,6 @@ nav ul {
 }
 
 .search {
-
   margin-top: 50%;
   margin-left: 16.33%;
   width: 65%;
@@ -110,7 +105,6 @@ nav ul {
   padding-top: 0.5%;
   border: 1px solid #000000;
   box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
-  
 }
 
 .card h1 {
@@ -160,8 +154,8 @@ nav ul {
   width: 100%;
   height: 100%;
 }
-.content h1{
-  padding-left: 5% ;
+.content h1 {
+  padding-left: 5%;
 }
 
 .content p {
@@ -197,7 +191,7 @@ nav ul {
   color: #ffffff;
   background-color: #8bb400;
 }
-footer{
+footer {
   display: flex;
   justify-content: space-around;
   width: 100%;
@@ -205,27 +199,24 @@ footer{
   background-color: #000;
   padding-bottom: 5%;
   color: #ffff;
-  div{
+  div {
     width: 20%;
-    h1{
+    h1 {
       white-space: nowrap;
       padding: 6% 0 6% 0;
     }
-   
   }
 }
 
-.social a{
+.social a {
   color: #ffffff;
 }
-.link ul li a{
-  color: #ffffff
+.link ul li a {
+  color: #ffffff;
 }
-.link ul li{
-
-list-style: disc;
+.link ul li {
+  list-style: disc;
 }
-
 
 /* Indoor Page CSS */
 
@@ -234,10 +225,8 @@ list-style: disc;
   width: 100%;
   height: 25vh;
   background-color: #8bb400;
- 
-  
-  img{
-    
+
+  img {
     object-fit: cover;
     position: absolute;
     width: 50%;
@@ -246,9 +235,7 @@ list-style: disc;
     left: 25%;
     z-index: 1000;
     border-radius: 20px;
-
   }
-  
 }
 
 .discription {
@@ -256,44 +243,57 @@ list-style: disc;
   width: 50%;
   height: auto;
   position: relative;
- 
+
   left: 25%;
-  p{
+  p {
     margin-top: 15%;
   }
-  
-  
 }
-.product-gallary{
+.product-gallary {
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-bottom: 4%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-row-gap: 20px;
+  grid-column-gap: 20px;
 
- width: 100%;
- display: flex;
- justify-content: space-evenly;
-
- img{
-   width: 20%;
-   height: auto;
-   border-radius: 20px;
-   margin-bottom: 20px;
- }
- img:hover{
-   opacity: 0.3;
-   
-   
- }
+  img {
+    width: 100%;
+    border-radius: 20px;
+  }
+  img:hover {
+    opacity: 0.6;
+  }
 }
-.indoor-nav ul li a{
-
+.indoor-nav ul li a {
   color: #000;
-  
 }
- 
-.indoor-nav{
+
+.indoor-nav {
   width: 100%;
 }
 
+//indoor page responsive elements
+@media screen and (max-width: 1024px) {
+  .indoor img {
+    position: relative;
+    left: 0;
+    right: 0;
 
-
+    width: 100%;
+  }
+  .discription {
+    width: 100%;
+    position: relative;
+    left: 2%;
+    right: 2%;
+  }
+  .discription p {
+    font-size: 12px;
+    width: 100%;
+  }
+}
 
 //Responsive elements
 
@@ -303,7 +303,7 @@ list-style: disc;
   }
   .right {
     width: 100%;
-    height:auto;
+    height: auto;
   }
   header {
     flex-direction: column;
@@ -335,11 +335,11 @@ list-style: disc;
     margin-left: 4%;
     margin-right: 4%;
   }
-  footer{
+  footer {
     flex-direction: column;
-    
+
     align-items: center;
-    div{
+    div {
       width: 100%;
       align-items: center;
     }
