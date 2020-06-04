@@ -61,6 +61,15 @@ nav ul {
   justify-content: space-between;
   margin-right: 4%;
 }
+nav ul li ul{
+  display:none;
+  position: absolute;
+  visibility: hidden;
+  margin-left:-0.1%;
+  margin-top:-2%;
+}
+nav ul li:hover ul{ display: block; visibility: visible; }
+nav ul li ul a{color:rgb(87, 231, 4);}
 .show-para h1 {
   margin-left: 12px;
   margin-top: 20%;
@@ -84,6 +93,9 @@ nav ul {
   color: #ffffff;
   background-color: #8bb400;
   border-radius: 20px;
+}
+.show-para button:hover{
+  background-color: #05b10d;
 }
 
 .left i {
@@ -191,6 +203,10 @@ nav ul {
   color: #ffffff;
   background-color: #8bb400;
 }
+.update button:hover{
+  background-color: #05b10d;
+}
+
 footer {
   display: flex;
   justify-content: space-around;
