@@ -119,6 +119,7 @@ nav ul li ul a {
   color: #ffffff;
   background-color: #8bb400;
   border-radius: 20px;
+  border: none;
 }
 
 .show-para button:hover {
