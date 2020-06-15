@@ -313,6 +313,62 @@ footer div h1 {
   list-style: disc;
 }
 
+.social form textarea {
+  width: 100%;
+  border-radius: 5px;
+  height: 20%;
+}
+
+.social form input {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.social form button {
+  border-radius: 5px;
+  background-color: #8bb400;
+  color: white;
+  border: none;
+  width: 100%;
+  font-size: 16px;
+}
+
+.social form button:hover {
+  background-color: #05b10d;
+}
+
+.social form input::-webkit-input-placeholder {
+  padding-left: 3%;
+}
+
+.social form input:-ms-input-placeholder {
+  padding-left: 3%;
+}
+
+.social form input::-ms-input-placeholder {
+  padding-left: 3%;
+}
+
+.social form input::placeholder {
+  padding-left: 3%;
+}
+
+.social form textarea::-webkit-input-placeholder {
+  padding-left: 3%;
+}
+
+.social form textarea:-ms-input-placeholder {
+  padding-left: 3%;
+}
+
+.social form textarea::-ms-input-placeholder {
+  padding-left: 3%;
+}
+
+.social form textarea::placeholder {
+  padding-left: 3%;
+}
+
 /* Indoor Page CSS */
 .indoor {
   position: relative;
@@ -455,7 +511,7 @@ footer div h1 {
             align-items: center;
   }
   footer div {
-    width: 100%;
+    width: 60%;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;

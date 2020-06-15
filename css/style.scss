@@ -269,7 +269,37 @@ footer {
 .link ul li {
   list-style: disc;
 }
+.social form{
+  textarea{
+    width: 100%;
+    border-radius: 5px;
+    height: 20%;
+  }
+ 
+  input{
+    width: 100%;
+    border-radius: 5px;
+ 
+  }
+  button{
+    border-radius: 5px;
+    background-color: #8bb400;
+    color:white;
+    border: none;
+    width: 100%;
+    font-size: 16px;
+  }
+  button:hover{
+    background-color: #05b10d;
+  }
+  input::placeholder{
+    padding-left: 3%;
 
+  }
+  textarea::placeholder{
+    padding-left: 3%;
+  }
+}
 /* Indoor Page CSS */
 
 .indoor {
@@ -392,7 +422,7 @@ footer {
 
     align-items: center;
     div {
-      width: 100%;
+      width: 60%;
       align-items: center;
     }
   }
