@@ -1,0 +1,23 @@
+
+Issue in product.html hasbeen fixed ! 
+ 
+problem: image and text having increase amount of gap
+problem fixed : new class hasbeen added and css update
+	
+	html portion
+
+class : head
+	class : col-2 image
+
+	css portion
+.head
+  display:flex;
+		.col-2.image
+ 			margin-right: 24px;
+
+				.col-2.image img
+ 					object-fit: cover;
+
+to view css side of certain element :
+search by their parent html tag or item name
+
