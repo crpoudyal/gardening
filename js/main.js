@@ -37,7 +37,7 @@ $(document).ready(function () {
 });
 
 
-// post slider.........................
+// Category post slider.........................
 
 $('.category').slick({
     slidesToShow: 3,
