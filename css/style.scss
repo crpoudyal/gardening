@@ -57,14 +57,14 @@ header {
 .right {
   width: 50%;
   height: 100vh;
-  background-color: #000000;
+  background-color: #ffffff;
   color: #ffffff;
 }
 
 //       Navigation Bar
 
 nav ul a {
-  color: #ffffff;
+ color: #000000;
   font-size: 16px;
 }
 nav ul {
@@ -82,21 +82,31 @@ nav ul li ul{
   margin-top:-2%;
 }
 nav ul li:hover ul{ 
+  position: absolute;
+  top: 65px;
   display: block; 
   visibility: visible; 
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
 }
-nav ul li ul a{
+nav ul li ul a:hover{
   color:rgb(87, 231, 4);
 }
+
 
 //       Banner Paragraph
 .show-para h1 {
   margin-left: 12px;
   margin-top: 20%;
+  color: #000000;
 }
 .show-para p {
   margin-top: 10%;
   font-size: 15px;
+  color: #000000;
 }
 .show-para {
   text-align: left;
@@ -329,7 +339,6 @@ footer {
 
 //    Indoor page CSS Files
 
-
 .product-gallary {
   margin-left: 4%;
   margin-right: 4%;
@@ -358,6 +367,212 @@ footer {
     width: 100%;
   }
 }
+
+/*-----shop---*/
+
+
+.nav-bar{
+  background-color: #000000;
+  padding-bottom: 1%;
+  
+}
+.nav-bar a{
+  color: #ffffff;
+
+}
+.nav-bar a:hover{
+  color: #05b10d;
+}
+
+.row{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around ;
+  padding-top: 3%;
+  padding-bottom: 2%;
+}
+
+
+.shop__page .small-container .row{
+  justify-content: space-between;
+}
+
+.shop__page .small-container .row h2{
+  margin: 0;
+  
+}
+
+.small-container{
+  max-width: 1080px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+
+.small-container h2{
+  text-transform: uppercase;
+  margin: 0 auto 10px;
+  position: relative;
+  line-height: 50px;
+  color:#000000;
+  }
+
+select{
+  border: 1px solid black;
+  padding: 5px;
+}
+
+select:focus{
+  outline: none;
+}
+
+.page-btn{
+  margin: 0 auto 20px;
+}
+
+.page-btn span{
+  display: inline-block;
+  border: 1px solid black;
+  color:black;
+  margin-left: 10px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  cursor: pointer;
+}
+
+.page-btn span:hover{
+  background: indigo;
+  color: wheat;
+}
+
+.small-container h4{
+  color: rgb(12, 4, 4);
+  font-weight: normal;
+}
+
+.small-container .col-4 p{
+  font-size: 14px;
+}
+
+.small-container .col-4:hover{
+  transform: translateY(-5px);
+  transition: transform 0.5s;
+}
+
+
+.small-container .col-4{
+  flex-basis: 25%;
+  padding: 5px;
+  min-width: 20px;
+  margin-bottom: 50px;
+}
+.small-container .col-4 img{
+width: 100%;
+
+}
+
+/*--shop ends here--*/
+
+
+
+/*----product details--*/
+
+
+.single-product{
+  margin-top: 60px;
+}
+
+
+.head{
+  display:flex;
+}
+
+.col-2.image{
+ 
+  margin-right: 24px;
+}
+
+
+.col-2.image img{
+ 
+  object-fit: cover;
+}
+.col-2.details{
+  margin-top: 10px;
+}
+
+.single-product h4{
+  margin:20px  0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+.single-product h3{
+  text-transform: uppercase;
+  font-size: 24px;
+}
+
+.single-product p{
+  text-transform: initial;
+  padding: 1px;
+  margin-top: -12px;
+
+}
+
+.single-product select{
+  display: block;
+  padding: 10px;
+  margin-top: 20px;
+  border: 1px solid black;
+}
+
+.single-product input{
+  width: 55px;
+  height: 40px;
+  padding-left: 10px;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-right: 10px;
+  border: 1px solid #000000;
+}
+
+
+input:focus{
+  outline: none;
+}
+
+
+.detail-btn{
+  display: inline-block;
+  margin: 30 30px;
+  padding: 26px 8px;
+  
+}
+
+.detail-btn span{
+  display: inline-block;
+  border: 1px solid black;
+  color: red;
+  margin-left: 8px;
+  width: 121px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  cursor: pointer;
+}
+
+.detail-btn span:hover{
+  background: #000000;
+  color: #ffffff;
+}
+
+
+/*----product details--*/
 
 //    Responsive elements for Index Page
 
