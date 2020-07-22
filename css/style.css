@@ -442,7 +442,11 @@ width: 100%;
 /*--shop ends here--*/
 
 
+
+
 /*----product details--*/
+
+
 .single-product{
   margin-top: 60px;
 }
@@ -462,7 +466,9 @@ width: 100%;
  
   object-fit: cover;
 }
-
+.col-2.details{
+  margin-top: 10px;
+}
 
 .single-product h4{
   margin:20px  0;
