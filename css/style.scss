@@ -70,7 +70,7 @@ nav ul a {
 nav ul {
   display: flex;
   margin-left: 12%;
-  padding-top: 2%;
+  padding-top: 1%;
   justify-content: space-between;
   margin-right: 4%;
 }
@@ -83,7 +83,7 @@ nav ul li ul{
 }
 nav ul li:hover ul{ 
   position: absolute;
-  top: 65px;
+  top: 8%;
   display: block; 
   visibility: visible; 
   background-color: #f9f9f9;
@@ -372,20 +372,6 @@ footer {
 }
 
 /*-----shop---*/
-
-
-.nav-bar{
-  background-color: #000000;
-  padding-bottom: 1%;
-  
-}
-.nav-bar a{
-  color: #ffffff;
-
-}
-.nav-bar a:hover{
-  color: #05b10d;
-}
 
 .row{
   display: flex;
