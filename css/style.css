@@ -308,45 +308,7 @@ nav ul li ul a {
 
 
 
-/*------Product header style--*/
 
-.hero{
-  width: 80%;
-  margin: auto;
-}
-.hero .navbar{
-
-
-  margin: 30px;
-  display: flex;
-  align-items: center;
-}
-
-
-
-.hero .navbar ul{
-flex: 1;
-text-align: right;
-}
-
-.navbar ul li{
-  display: inline-block;
-  list-style: none;
-  margin: 0 25px;
-}
-
-.hero .navbar ul li a{
-  text-decoration: none;
-  color: blue;
-  padding: 0 10px;
-}
-
-.hero .navbar ul li a:hover{
-  color: aqua;
-}
-
-
-/*----product header ends here*/
 
 /*-----shop---*/
 
@@ -440,6 +402,23 @@ width: 100%;
 }
 
 /*--shop ends here--*/
+
+
+
+
+/*------Product header style--*/
+
+navbar = hero = navbar
+
+.hero{
+  display: flex;
+  align-items:center;
+
+}
+
+
+/*----product header ends here*/
+
 
 
 
