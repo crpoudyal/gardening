@@ -408,13 +408,49 @@ width: 100%;
 
 /*------Product header style--*/
 
-navbar = hero = navbar
-
 .hero{
+  margin-top: 20px;
   display: flex;
-  align-items:center;
+  align-items: center;
+  padding: 20px;
+}
+
+.hero .logo{
+  margin-left: 100px;
 
 }
+
+.hero .logo img{
+  width: 100px;
+}
+
+.navbar{
+  flex: 1;
+  text-align: right;
+}
+
+.navbar ul{
+  display: inline-block;
+  list-style: none;
+}
+
+.navbar ul li{
+  display: inline-block;
+  margin-right: 50px;
+}
+
+.navbar ul li a{
+  text-decoration:none;
+  color: #ff523b;
+}
+
+.container{
+  max-width: 1300px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
 
 
 /*----product header ends here*/
@@ -436,13 +472,11 @@ navbar = hero = navbar
 }
 
 .col-2.image{
- 
   margin-right: 24px;
 }
 
 
 .col-2.image img{
- 
   object-fit: cover;
 }
 .col-2.details{
