@@ -1,6 +1,6 @@
 
-
 //       Google fonts Imported
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
 
 * {
@@ -361,17 +361,7 @@ footer {
 }
 
 
-//   Indoor page responsive elements
-@media screen and (max-width: 1024px) {
-  .indoor img {
-    position: relative;
-    left: 0;
-    right: 0;
-    width: 100%;
-  }
-}
-
-/*-----shop---*/
+/*-----shop page css---*/
 
 .row{
   display: flex;
@@ -563,6 +553,9 @@ input:focus{
 
 /*----product details--*/
 
+
+
+
 //    Responsive elements for Index Page
 
 @media screen and (max-width: 1024px) {
@@ -614,5 +607,49 @@ input:focus{
     }
   }
 }
+
+
+//   Indoor page responsive elements
+@media screen and (max-width: 1024px) {
+  .indoor img {
+    position: relative;
+    left: 0;
+    right: 0;
+    width: 100%;
+  }
+}
+
+
+//   Shop page responsive elements
+
+@media screen and (max-width:1024px){
+
+.row{
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+}
+
+// product page responsive elements
+
+@media screen and (max-width:1024px){
+
+  .head{
+    display: flex;
+    flex-direction: column;
+  }
+  .col-2 .details{
+    width: 100%;
+    margin-right: 2%;
+  }
+  
+}
+
+
+
+
+
 
 // End
