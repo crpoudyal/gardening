@@ -595,7 +595,7 @@ input:focus {
 }
 
 /*----product details--*/
-h1 {
+.nursuryintro h1 {
   text-align: center;
   padding: 3%;
 }
