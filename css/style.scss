@@ -1,9 +1,10 @@
 
-
 //       Google fonts Imported
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
 
-* {
+
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -361,17 +362,7 @@ footer {
 }
 
 
-//   Indoor page responsive elements
-@media screen and (max-width: 1024px) {
-  .indoor img {
-    position: relative;
-    left: 0;
-    right: 0;
-    width: 100%;
-  }
-}
-
-/*-----shop---*/
+/*-----shop page css---*/
 
 .row{
   display: flex;
@@ -563,6 +554,31 @@ input:focus{
 
 /*----product details--*/
 
+
+// Nursury Page Css File
+
+
+.nursuryintro h1{
+  text-align: center;
+  padding: 3%;
+}
+.nursuryintro{
+  margin-left:10%;
+  margin-right: 10%;
+
+}
+.nursuryimage{
+  margin-top: 3%;
+  margin-bottom: 3%;
+  height: 50vh;
+  width: auto;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-image:url(../Asset/images/seedling-5009286_1920.jpg);
+  background-size: 100% 100%;
+  box-shadow: 0px 10px 20px -6px #000;
+}
+
 //    Responsive elements for Index Page
 
 @media screen and (max-width: 1024px) {
@@ -614,5 +630,49 @@ input:focus{
     }
   }
 }
+
+
+//   Indoor page responsive elements
+@media screen and (max-width: 1024px) {
+  .indoor img {
+    position: relative;
+    left: 0;
+    right: 0;
+    width: 100%;
+  }
+}
+
+
+//   Shop page responsive elements
+
+@media screen and (max-width:1024px){
+
+.row{
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+}
+
+// product page responsive elements
+
+@media screen and (max-width:1024px){
+
+  .head{
+    display: flex;
+    flex-direction: column;
+  }
+  .col-2 .details{
+    width: 100%;
+    margin-right: 2%;
+  }
+  
+}
+
+
+
+
+
 
 // End
