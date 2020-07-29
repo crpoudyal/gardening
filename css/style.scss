@@ -101,7 +101,10 @@ nav ul li a{
   transition: 0.6s;
 }
 
-nav ul li a.sticky{
+// nav ul li a.sticky{
+//   margin:0 70px;
+// }
+nav.sticky ul li a{
   margin:0 70px;
 }
 
