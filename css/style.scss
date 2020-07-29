@@ -574,7 +574,8 @@ input:focus{
   margin-right: 10%;
 
 }
-.nurserycard {
+.nurseryimage .nurserycard {
+ padding-top: 5%;
   margin-left: 5%;
 }
 .nurseryimage{
@@ -590,7 +591,17 @@ input:focus{
   box-shadow: 0px 10px 20px -6px #000;
   border-radius: 30px;;
 }
+button{
+  background-color: #8bb400;
+  color: #ffffff;
+  border: none;
+  padding: 5px;
+  border-radius: 10px;
+}
+button:hover{
+  background-color: #05b10d;
 
+}
 //    Responsive elements for Index Page
 
 @media screen and (max-width: 1024px) {
