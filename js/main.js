@@ -28,6 +28,7 @@ search.addEventListener('keydown',() => {
 
 
 //search bar animation...
+if(typeof $('.search') !== 'undefined'){
 $(document).ready(function () {
     $('.search').click(function () { //select your searchbar by class and onclick create a new function
         var my_searchbar = $(this); //my_searchbar is how you can access your searchbar
@@ -35,6 +36,7 @@ $(document).ready(function () {
         my_searchbar.animate({ marginTop: '150px' }, 1000);
     });
 });
+}
 
 
 // Category post slider.........................
@@ -75,4 +77,17 @@ $('.category').slick({
         // instead of a settings object
       ]
   });
-                  
+     
+  
+  //.........................navBar sticky effects...............
+
+  window.addEventListener("scroll",()=>{
+    var navBar = document.querySelector("nav");
+    // var navBarsec = document.querySelectorAll("nav ul li a")
+    navBar.classList.toggle("sticky",window.scrollY > 0);
+    // for(var i = 0; i<navBarsec.length;i++){
+    //   navBarsec[i].classList.toggle("sticky",window.scrollY > 0);
+    // }
+  })
+
+  
