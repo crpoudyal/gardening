@@ -312,65 +312,24 @@ span {
 }
 
 //      Footer SECTIONS
-
-footer {
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
-  height: auto;
+footer{
+  padding-top: 1%;
+  text-align: center;
+  color: white;
   background-color: #000;
-  padding-bottom: 5%;
-  color: #ffff;
-  div {
-    width: 20%;
-    h1 {
-      white-space: nowrap;
-      padding: 6% 0 6% 0;
-    }
-  }
+  width: 100vw;
+  height: 20vh;
+  line-height: 2.5;
+  font-size: 12px;
 }
-
-.social a {
-  color: #ffffff;
+footer .social-link i{
+  margin-top: 0.5%;
+  padding: 1%;
 }
-.link ul li a {
-  color: #ffffff;
+footer .foot{
+  color: #5f5e5e;
 }
-.link ul li {
-  list-style: disc;
-}
-.social form{
-  textarea{
-    width: 100%;
-    border-radius: 5px;
-    height: 20%;
-  }
- 
-  input{
-    width: 100%;
-    border-radius: 5px;
- 
-  }
-  button{
-    border-radius: 5px;
-    background-color: #8bb400;
-    color:white;
-    border: none;
-    width: 100%;
-    font-size: 16px;
-  }
-  button:hover{
-    background-color: #05b10d;
-  }
-  input::placeholder{
-    padding-left: 3%;
-
-  }
-  textarea::placeholder{
-    padding-left: 3%;
-  }
-}
-//    Fotter section End
+//    Footer section End
 
 
 //    Indoor page CSS Files

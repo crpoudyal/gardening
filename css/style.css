@@ -338,93 +338,23 @@ span {
 }
 
 footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  width: 100%;
-  height: auto;
-  background-color: #000;
-  padding-bottom: 5%;
-  color: #ffff;
-}
-
-footer div {
-  width: 20%;
-}
-
-footer div h1 {
-  white-space: nowrap;
-  padding: 6% 0 6% 0;
-}
-
-.social a {
-  color: #ffffff;
-}
-
-.link ul li a {
-  color: #ffffff;
-}
-
-.link ul li {
-  list-style: disc;
-}
-
-.social form textarea {
-  width: 100%;
-  border-radius: 5px;
-  height: 20%;
-}
-
-.social form input {
-  width: 100%;
-  border-radius: 5px;
-}
-
-.social form button {
-  border-radius: 5px;
-  background-color: #8bb400;
+  padding-top: 1%;
+  text-align: center;
   color: white;
-  border: none;
-  width: 100%;
-  font-size: 16px;
+  background-color: #000;
+  width: 100vw;
+  height: 20vh;
+  line-height: 2.5;
+  font-size: 12px;
 }
 
-.social form button:hover {
-  background-color: #05b10d;
+footer .social-link i {
+  margin-top: 0.5%;
+  padding: 1%;
 }
 
-.social form input::-webkit-input-placeholder {
-  padding-left: 3%;
-}
-
-.social form input:-ms-input-placeholder {
-  padding-left: 3%;
-}
-
-.social form input::-ms-input-placeholder {
-  padding-left: 3%;
-}
-
-.social form input::placeholder {
-  padding-left: 3%;
-}
-
-.social form textarea::-webkit-input-placeholder {
-  padding-left: 3%;
-}
-
-.social form textarea:-ms-input-placeholder {
-  padding-left: 3%;
-}
-
-.social form textarea::-ms-input-placeholder {
-  padding-left: 3%;
-}
-
-.social form textarea::placeholder {
-  padding-left: 3%;
+footer .foot {
+  color: #5f5e5e;
 }
 
 .product-gallary {
