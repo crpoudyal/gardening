@@ -304,7 +304,7 @@ nav ul li ul a:hover {
   width: 30%;
   height: 31px;
   border: 1px solid #000000;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 .update button {
@@ -321,6 +321,38 @@ nav ul li ul a:hover {
 
 .update button:hover {
   background-color: #05b10d;
+}
+
+.contact {
+  text-align: center;
+}
+
+.contact form input {
+  text-align: left;
+  padding-left: 1%;
+  width: 30%;
+  height: 31px;
+  border: 1px solid #000;
+  border-radius: 10px;
+}
+
+textarea {
+  width: 30%;
+  height: 100px;
+  border: 1px solid #000;
+  border-radius: 10px;
+}
+
+.contact button {
+  margin: 1%;
+  padding: 0.5% 2% 0.5% 2%;
+  border-radius: 20px;
+  font-size: 12px;
+  margin-bottom: 5%;
+  border: none;
+  width: 15%;
+  color: #ffffff;
+  background-color: #8bb400;
 }
 
 input :focus {
