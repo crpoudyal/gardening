@@ -1,4 +1,3 @@
-
 //       Google fonts Imported
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
@@ -62,25 +61,23 @@ header {
 
 //       Navigation Bar
 
-
-nav{
+nav {
   width: 100%;
   height: 50px;
   background: transparent;
   position: fixed;
-  top:0%;
+  top: 0%;
   z-index: 1000;
   display: flex;
   justify-content: space-between;
   align-items: center;
   transition: all 0.6s;
 }
-nav.sticky{
+nav.sticky {
   background-color: #ffffff;
   box-shadow: 0px 10px 20px -6px #5f5e5e;
   justify-content: space-evenly;
   // position: sticky;
-
 }
 nav ul {
   position: relative;
@@ -92,45 +89,42 @@ nav ul {
 nav ul a {
   color: #000000;
   font-size: 16px;
- }
-nav ul li a{
+}
+nav ul li a {
   position: relative;
-  margin:0 30px;
+  margin: 0 30px;
   transition: 0.6s;
 }
 
 // nav ul li a.sticky{
 //   margin:0 70px;
 // }
-nav.sticky ul li a{
-  margin:0 80px;
+nav.sticky ul li a {
+  margin: 0 80px;
 }
 
-nav ul li ul{
-  display:none;
+nav ul li ul {
+  display: none;
   position: absolute;
   visibility: hidden;
-  margin-left:-0.1%;
-  margin-top:0.1%;
+  margin-left: -0.1%;
+  margin-top: 0.1%;
 }
-nav ul li:hover ul{ 
+nav ul li:hover ul {
   position: absolute;
   // top: 8%;
-  display: block; 
-  visibility: visible; 
+  display: block;
+  visibility: visible;
   background-color: #f9f9f9;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   padding: 12px 16px;
   z-index: 1;
 }
-nav ul li ul a:hover
-{
+nav ul li ul a:hover {
   transition: 0.2s;
-  color:rgb(87, 231, 4);
+  color: rgb(87, 231, 4);
 }
-
-
 
 //       Banner Paragraph
 .show-para h1 {
@@ -161,51 +155,50 @@ nav ul li ul a:hover
   border-radius: 20px;
   border: none;
 }
-.show-para button:hover{
+.show-para button:hover {
   background-color: #05b10d;
 }
 
 //          Popular Category Post
 
-
-.post .title{
+.post .title {
   text-align: center;
-  margin:10px auto;
-  font-family:'Candal',serif;
+  margin: 10px auto;
+  font-family: "Candal", serif;
   font-size: 35px;
 }
-.post .prev{
+.post .prev {
   position: absolute;
   padding-top: 3px;
-  padding-bottom:3px;
-  left:45%;
-  font-size:2em;
-  font-weight: bolder; 
-  cursor: pointer;
-  color:orange;
-}
-.post .next{
-  position: absolute;
-  padding-top: 3px;
-  padding-bottom:3px;
-  right:45%;
-  font-size:2em;
+  padding-bottom: 3px;
+  left: 45%;
+  font-size: 2em;
   font-weight: bolder;
   cursor: pointer;
-  color:orange;
+  color: orange;
+}
+.post .next {
+  position: absolute;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  right: 45%;
+  font-size: 2em;
+  font-weight: bolder;
+  cursor: pointer;
+  color: orange;
 }
 .post .category {
   width: 84%;
   height: 340px;
-  margin:0px auto;
+  margin: 0px auto;
   justify-content: space-around;
-  overflow:hidden;
+  overflow: hidden;
 }
 .post .category .card {
-  display:inline-block;
+  display: inline-block;
   width: 300px;
   height: 340px;
-  margin:0px 10px;
+  margin: 0px 10px;
   background-color: #c4c4c4;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
@@ -216,7 +209,7 @@ nav ul li ul a:hover
 .card h1 {
   text-align: center;
 }
-.card a{
+.card a {
   color: #000000;
 }
 .card p {
@@ -291,16 +284,16 @@ nav ul li ul a:hover
   color: #ffffff;
   background-color: #8bb400;
 }
-.update button:hover{
+.update button:hover {
   background-color: #05b10d;
 }
 
 // Contact Us
 
-.contact{
+.contact {
   text-align: center;
 }
-.contact form input{
+.contact form input {
   text-align: left;
   padding-left: 1%;
   width: 30%;
@@ -308,13 +301,13 @@ nav ul li ul a:hover
   border: 1px solid #000;
   border-radius: 10px;
 }
-textarea{
+textarea {
   width: 30%;
   height: 100px;
   border: 1px solid #000;
   border-radius: 10px;
 }
-.contact button{
+.contact button {
   margin: 1%;
   padding: 0.5% 2% 0.5% 2%;
   border-radius: 20px;
@@ -325,7 +318,6 @@ textarea{
   color: #ffffff;
   background-color: #8bb400;
 }
-
 
 //    Comman Tags
 
@@ -343,29 +335,24 @@ span {
 }
 
 //      Footer SECTIONS
-footer{
+footer {
   padding-top: 1%;
   text-align: center;
   color: white;
-  background-color:#222121;
+  background-color: #222121;
   width: 100vw;
   height: 20vh;
   line-height: 2.5;
   font-size: 12px;
 }
-footer .social-link i{
+footer .social-link i {
   margin-top: 0.5%;
   padding: 1%;
 }
-footer .foot{
+footer .foot {
   color: #4bf762;
 }
 //    Footer section End
-
-
-
-
-
 
 //    Indoor page CSS Files
 
@@ -387,61 +374,57 @@ footer .foot{
   }
 }
 
-
 /*-----shop page css---*/
 
-.row{
+.row {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  justify-content: space-around ;
+  justify-content: space-around;
   margin-top: 6%;
   padding-bottom: 2%;
 }
 
-
-.shop__page .small-container .row{
+.shop__page .small-container .row {
   justify-content: space-between;
 }
 
-.shop__page .small-container .row h2{
+.shop__page .small-container .row h2 {
   margin: 0;
-  
 }
 
-.small-container{
+.small-container {
   max-width: 1080px;
   margin: auto;
   padding-left: 25px;
   padding-right: 25px;
 }
 
-
-.small-container h2{
+.small-container h2 {
   text-transform: uppercase;
   margin: 0 auto 10px;
   position: relative;
   line-height: 50px;
-  color:#000000;
-  }
+  color: #000000;
+}
 
-select{
+select {
   border: 1px solid black;
   padding: 5px;
 }
 
-select:focus{
+select:focus {
   outline: none;
 }
 
-.page-btn{
+.page-btn {
   margin: 0 auto 20px;
 }
 
-.page-btn span{
+.page-btn span {
   display: inline-block;
   border: 1px solid black;
-  color:black;
+  color: black;
   margin-left: 10px;
   width: 30px;
   height: 30px;
@@ -450,94 +433,83 @@ select:focus{
   cursor: pointer;
 }
 
-.page-btn span:hover{
+.page-btn span:hover {
   background: indigo;
   color: wheat;
 }
 
-.small-container h4{
+.small-container h4 {
   color: rgb(12, 4, 4);
   font-weight: normal;
 }
 
-.small-container .col-4 p{
+.small-container .col-4 p {
   font-size: 14px;
 }
 
-.small-container .col-4:hover{
+.small-container .col-4:hover {
   transform: translateY(-5px);
   transition: transform 0.5s;
 }
 
-
-.small-container .col-4{
+.small-container .col-4 {
   flex-basis: 25%;
   padding: 5px;
   min-width: 20px;
   margin-bottom: 50px;
 }
-.small-container .col-4 img{
-width: 100%;
-
+.small-container .col-4 img {
+  width: 100%;
 }
 
 /*--shop ends here--*/
 
-
-
 /*----product details--*/
 
-
-.single-product{
+.single-product {
   margin-top: 60px;
 }
 
-
-.head{
-  display:flex;
+.head {
+  display: flex;
 }
 
-.col-2.image{
- 
+.col-2.image {
   margin-right: 24px;
 }
 
-
-.col-2.image img{
- 
+.col-2.image img {
   object-fit: cover;
 }
-.col-2.details{
+.col-2.details {
   margin-top: 10px;
 }
 
-.single-product h4{
-  margin:20px  0;
+.single-product h4 {
+  margin: 20px 0;
   font-size: 20px;
   font-weight: bold;
 }
 
-
-.single-product h3{
+.single-product h3 {
   text-transform: uppercase;
   font-size: 24px;
 }
 
-.single-product p{
+.single-product p {
   text-transform: initial;
   padding: 1px;
   margin-top: -12px;
-
 }
 
-.single-product select{
+.single-product select {
   display: block;
   padding: 10px;
   margin-top: 20px;
   border: 1px solid black;
 }
 
-.single-product input{
+.single-product input {
   width: 55px;
   height: 40px;
   padding-left: 10px;
@@ -547,20 +519,17 @@ width: 100%;
   border: 1px solid #000000;
 }
 
-
-input:focus{
+input:focus {
   outline: none;
 }
 
-
-.detail-btn{
+.detail-btn {
   display: inline-block;
   margin: 30 30px;
   padding: 26px 8px;
-  
 }
 
-.detail-btn span{
+.detail-btn span {
   display: inline-block;
   border: 1px solid black;
   color: red;
@@ -572,35 +541,31 @@ input:focus{
   cursor: pointer;
 }
 
-.detail-btn span:hover{
+.detail-btn span:hover {
   background: #000000;
   color: #ffffff;
 }
 
-
 /*----product details--*/
-
 
 // Nursury Page Css File
 
-
-.nurseryintro h1{
+.nurseryintro h1 {
   text-align: center;
   padding: 3%;
 }
-.nurseryintro{
-  margin-left:10%;
+.nurseryintro {
+  margin-left: 10%;
   margin-right: 10%;
-
 }
 .nurseryimage .nurserycard {
- padding-top: 5%;
+  padding-top: 5%;
   margin-left: -45%;
 }
-.nurserycard{
+.nurserycard {
   text-align: center;
 }
-.nurseryimage{
+.nurseryimage {
   line-height: 3rem;
   margin-top: 3%;
   margin-bottom: 4%;
@@ -608,28 +573,59 @@ input:focus{
   width: auto;
   margin-left: 10%;
   margin-right: 10%;
-  background-image:linear-gradient(120deg ,rgba(255,255,255,0.9) 50%,transparent 50%), url(../Asset/images/seedling-5009286_1920.jpg);
+  background-image: linear-gradient(
+      120deg,
+      rgba(255, 255, 255, 0.9) 50%,
+      transparent 50%
+    ),
+    url(../Asset/images/seedling-5009286_1920.jpg);
   background-size: 100% 100%;
   box-shadow: 0px 10px 20px -6px #000;
-  border-radius: 30px;;
+  border-radius: 30px;
 }
-button{
+button {
   background-color: #8bb400;
   color: #ffffff;
   border: none;
   padding: 5px;
   border-radius: 10px;
 }
-button:hover{
+button:hover {
   background-color: #05b10d;
-
 }
+
+// Nursery details page css
+.nursery_details p {
+  width: 40%;
+  margin-left: 30%;
+  margin-top: 2%;
+  margin-right: 30%;
+  border-radius: 10px;
+}
+.nursery_details img {
+  width: 40%;
+  margin-left: 30%;
+  margin-top: 5%;
+  margin-right: 30%;
+  border-radius: 10px;
+}
+.nursery_d_nav {
+  width: 30%;
+  margin-left: 33%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  border: 1px solid green;
+}
+.nursery_d_nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
 //    Responsive elements for Index Page
 
 @media screen and (max-width: 1024px) {
   header {
     flex-direction: column;
-
     flex-basis: 100%;
   }
   .left {
@@ -639,7 +635,7 @@ button:hover{
     width: 100%;
     height: auto;
   }
-  
+
   .category {
     flex-direction: column;
     flex-basis: 100%;
@@ -676,7 +672,6 @@ button:hover{
   }
 }
 
-
 //   Indoor page responsive elements
 @media screen and (max-width: 1024px) {
   .indoor img {
@@ -687,37 +682,27 @@ button:hover{
   }
 }
 
-
 //   Shop page responsive elements
 
-@media screen and (max-width:1024px){
-
-.row{
-  display:flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-}
-
+@media screen and (max-width: 1024px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
 }
 
 // product page responsive elements
 
-@media screen and (max-width:1024px){
-
-  .head{
+@media screen and (max-width: 1024px) {
+  .head {
     display: flex;
     flex-direction: column;
   }
-  .col-2 .details{
+  .col-2 .details {
     width: 100%;
     margin-right: 2%;
   }
-  
 }
-
-
-
-
-
 
 // End
