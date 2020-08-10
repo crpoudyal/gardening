@@ -188,7 +188,7 @@ nav ul li ul a:hover {
 .post .title {
   text-align: center;
   margin: 10px auto;
-  font-family: 'Candal',serif;
+  font-family: "Candal", serif;
   font-size: 35px;
 }
 
@@ -304,7 +304,7 @@ nav ul li ul a:hover {
   width: 30%;
   height: 31px;
   border: 1px solid #000000;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 .update button {
@@ -323,6 +323,38 @@ nav ul li ul a:hover {
   background-color: #05b10d;
 }
 
+.contact {
+  text-align: center;
+}
+
+.contact form input {
+  text-align: left;
+  padding-left: 1%;
+  width: 30%;
+  height: 31px;
+  border: 1px solid #000;
+  border-radius: 10px;
+}
+
+textarea {
+  width: 30%;
+  height: 100px;
+  border: 1px solid #000;
+  border-radius: 10px;
+}
+
+.contact button {
+  margin: 1%;
+  padding: 0.5% 2% 0.5% 2%;
+  border-radius: 20px;
+  font-size: 12px;
+  margin-bottom: 5%;
+  border: none;
+  width: 15%;
+  color: #ffffff;
+  background-color: #8bb400;
+}
+
 input :focus {
   outline: none;
 }
@@ -338,93 +370,23 @@ span {
 }
 
 footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  width: 100%;
-  height: auto;
-  background-color: #000;
-  padding-bottom: 5%;
-  color: #ffff;
-}
-
-footer div {
-  width: 20%;
-}
-
-footer div h1 {
-  white-space: nowrap;
-  padding: 6% 0 6% 0;
-}
-
-.social a {
-  color: #ffffff;
-}
-
-.link ul li a {
-  color: #ffffff;
-}
-
-.link ul li {
-  list-style: disc;
-}
-
-.social form textarea {
-  width: 100%;
-  border-radius: 5px;
-  height: 20%;
-}
-
-.social form input {
-  width: 100%;
-  border-radius: 5px;
-}
-
-.social form button {
-  border-radius: 5px;
-  background-color: #8bb400;
+  padding-top: 1%;
+  text-align: center;
   color: white;
-  border: none;
-  width: 100%;
-  font-size: 16px;
+  background-color: #222121;
+  width: 100vw;
+  height: 20vh;
+  line-height: 2.5;
+  font-size: 12px;
 }
 
-.social form button:hover {
-  background-color: #05b10d;
+footer .social-link i {
+  margin-top: 0.5%;
+  padding: 1%;
 }
 
-.social form input::-webkit-input-placeholder {
-  padding-left: 3%;
-}
-
-.social form input:-ms-input-placeholder {
-  padding-left: 3%;
-}
-
-.social form input::-ms-input-placeholder {
-  padding-left: 3%;
-}
-
-.social form input::placeholder {
-  padding-left: 3%;
-}
-
-.social form textarea::-webkit-input-placeholder {
-  padding-left: 3%;
-}
-
-.social form textarea:-ms-input-placeholder {
-  padding-left: 3%;
-}
-
-.social form textarea::-ms-input-placeholder {
-  padding-left: 3%;
-}
-
-.social form textarea::placeholder {
-  padding-left: 3%;
+footer .foot {
+  color: #4bf762;
 }
 
 .product-gallary {
@@ -575,7 +537,7 @@ select:focus {
 }
 
 .single-product h4 {
-  margin: 20px  0;
+  margin: 20px 0;
   font-size: 20px;
   font-weight: bold;
 }
@@ -680,6 +642,38 @@ button {
 
 button:hover {
   background-color: #05b10d;
+}
+
+.nursery_details p {
+  width: 40%;
+  margin-left: 30%;
+  margin-top: 2%;
+  margin-right: 30%;
+  border-radius: 10px;
+}
+
+.nursery_details img {
+  width: 40%;
+  margin-left: 30%;
+  margin-top: 5%;
+  margin-right: 30%;
+  border-radius: 10px;
+}
+
+.nursery_d_nav {
+  width: 30%;
+  margin-left: 33%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  border: 1px solid green;
+}
+
+.nursery_d_nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 @media screen and (max-width: 1024px) {
